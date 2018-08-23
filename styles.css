@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  background-color: #142D55;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+#welcome-section {
+  background-color: #F1F3F3;
+  /* border: solid; */
+  height: 100%;
+  padding-top: 40vh;
+  text-align: center;
+}
+
+#welcome-section-text h1 {
+  font-weight: bold;
+}
+
+#welcome-section-text h2 {
+  font-size: 20px;
+}
+
+#portfolio-button {
+  background-color: #73819C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
