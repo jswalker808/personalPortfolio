@@ -8,8 +8,6 @@ html, body {
 #navbar {
   background-color: #142D55;
   color: white;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 #logo {
@@ -17,11 +15,19 @@ html, body {
   width: 3rem;
 }
 
+.link-image {
+  height: 1rem;
+  opacity: 0.5;
+  width: 1rem;
+}
+
 #welcome-section {
   background-color: #F1F3F3;
   /* border: solid; */
   height: 100%;
   padding-top: 40vh;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 
@@ -43,9 +49,9 @@ html, body {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     #navbar {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 10%;
+      padding-right: 10%;
     }
 }
