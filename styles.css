@@ -1,8 +1,9 @@
 html, body {
+  font-family: 'Poppins', sans-serif;
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
 }
 
 #navbar {
@@ -40,13 +41,54 @@ html, body {
 }
 
 #portfolio-button {
-  background-color: #73819C;
+  background: linear-gradient(to right, #8fa0c1, #73819C);
   border: none;
   border-radius: 5px;
   color: white;
   margin-top: 10px;
   padding: 10px;
   text-transform: uppercase;
+}
+
+.section {
+  background-color: #F1F3F3;
+  /* border: solid; */
+  padding-top: 74px;
+}
+
+.section header {
+  background: linear-gradient(to right, #8fa0c1, #73819C);
+  color: white;
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.section header h1 {
+  font-weight: bold;
+}
+
+.section header h2 {
+  font-size: 15px;
+}
+
+.section-info {
+  margin-top: 25px;
+  padding: 25px;
+}
+
+#about-image {
+  border-radius: 10%;
+  display: block;
+  height: 10rem;
+  margin: auto;
+  width: 7rem;
+}
+
+.section-info p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 25px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 600px) {
