@@ -30,7 +30,7 @@
               Portfolio</a>
           </li>
           <li class="nav-item ml-3">
-            <a class="nav-link" href="#"><img class="link-image" src="https://png.icons8.com/material-rounded/50/ffffff/contacts.png">
+            <a class="nav-link" href="#contact"><img class="link-image" src="https://png.icons8.com/material-rounded/50/ffffff/contacts.png">
               Contact</a>
           </li>
         </ul>
@@ -41,7 +41,7 @@
       <div id="welcome-section-text">
         <h1>Hi, I'm James Walker</h1>
         <h2>a Software Developer</h2>
-        <a href="#projects"><button id="portfolio-button" type="button" name="button">Check my portfolio</button></a>
+        <a href="#projects"><button class="portfolio-button" type="button" name="button">Check my portfolio</button></a>
       </div>
     </div>
 
@@ -65,7 +65,75 @@
         <h1>Portfolio</h1>
         <h2>My development projects</h2>
       </header>
+      <div id="projects-container" class="section-info">
+        <div class="project-tile">
+          <a class="project-link" href="http://159.89.144.9/Tic-Tac-Toe/">
+            <img src="images/ticTacToe.png" alt="Tic-Tac-Toe project screenshot" class="img-thumbnail">
+          </a>
+          <div class="image-text">
+            <h2>Tic-Tac-Toe</h2>
+            <p>This web app was built with HTML, CSS, and vanilla javascript.</p>
+          </div>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="http://159.89.144.9/creative3/">
+            <img src="images/rockPaperScissors.png" alt="Rock-Paper-Scissors project screenshot" class="img-thumbnail">
+          </a>
+          <div class="image-text">
+            <h2>Rock-Paper-Scissors</h2>
+            <p>This web app was built with HTML, CSS, and the Vuejs framework.</p>
+          </div>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="http://159.89.144.9:3002">
+            <img src="images/snakeGame.png" alt="Snake game project screenshot" class="img-thumbnail">
+          </a>
+          <div class="image-text">
+            <h2>Snake Game</h2>
+            <p>This web app was built with HTML, HTML Canvas, CSS, vanilla javascript, express, and nodeJs for some basic backend capabilities.</p>
+          </div>
+        </div>
+        <div class="project-tile">
+          <a class="project-link" href="http://159.89.144.9:3003">
+            <img src="images/weightTracker.png" alt="Weight tracker project screenshot" class="img-thumbnail">
+          </a>
+          <div class="image-text">
+            <h2>Weight Tracker</h2>
+            <p>This web app was built with HTML, CSS, Vuejs, express, nodeJs, and MySQL Database.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <header>
+        <h1>Contact</h1>
+        <h2>Feel free to contact me with any questions or requests.</h2>
+      </header>
       <div class="section-info">
+        <form action="https://formspree.io/your@email.com" method="POST">
+          <label for="Full Name">Full Name: </label>
+            <input type="text" name="Full-Name">
+          <label for="Email-Address">Email: </label>
+            <input type="email" name="Email-Address">
+          <label for="Message">Message: </label>
+            <textarea name="Message"></textarea>
+          <input class="portfolio-button" id="form-submit" type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+    <div id="footer">
+      <p>©2018 James Walker</p>
+      <div class="link-container">
+        <a href="https://github.com/jswalker808">
+          <img src="https://png.icons8.com/ios-glyphs/50/ffffff/github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/james-seiya-walker-4a0515103">
+          <img src="https://png.icons8.com/ios/50/ffffff/linkedin-filled.png">
+        </a>
+        <a href="https://www.facebook.com/james.s.walker.52?ref=bookmarks">
+          <img src="https://png.icons8.com/ios/50/ffffff/facebook-filled.png">
+        </a>
       </div>
     </div>
 

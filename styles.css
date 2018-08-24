@@ -40,7 +40,7 @@ html, body {
   font-size: 20px;
 }
 
-#portfolio-button {
+.portfolio-button {
   background: linear-gradient(to right, #8fa0c1, #73819C);
   border: none;
   border-radius: 5px;
@@ -72,8 +72,10 @@ html, body {
 }
 
 .section-info {
+  /* border: solid; */
   margin-top: 25px;
   padding: 25px;
+  width: 100%;
 }
 
 #about-image {
@@ -89,6 +91,80 @@ html, body {
   line-height: 1.8;
   margin-top: 25px;
   text-align: justify;
+}
+
+#projects-container {
+}
+
+.project-tile {
+  background-color: white;
+  border-radius: 0.25rem;
+  margin-bottom: 25px;
+  padding: 5px;
+  width: 100%;
+}
+
+.project-link {
+  color: black;
+  text-decoration: none;
+}
+
+.project-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.image-text {
+  padding: 5px;
+}
+
+.image-text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image-text p {
+  margin-top: 0;
+}
+
+.section-info form {
+  /* border: solid; */
+  bo
+  padding: 10px;
+  width: 100%;
+}
+
+.section-info form label {
+  font-weight: bold;
+}
+
+.section-info form input, .section-info form textarea {
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  width: inherit;
+}
+
+.section-info form textarea {
+  height: 6rem;
+}
+
+#form-submit {
+  margin: auto;
+}
+
+#footer {
+  background-color: #142D55;
+  color: rgba(255,255,255,.5);
+  padding: 15px;
+  text-align: center;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media only screen and (min-width: 600px) {
