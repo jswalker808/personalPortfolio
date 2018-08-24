@@ -7,7 +7,7 @@ html, body {
 }
 
 #navbar {
-  background-color: #142D55;
+  background-color: #28845F;
   color: white;
 }
 
@@ -41,7 +41,8 @@ html, body {
 }
 
 .portfolio-button {
-  background: linear-gradient(to right, #8fa0c1, #73819C);
+  /* background: linear-gradient(to right, #92e899, #74B87A); */
+  background-color: #F29831;
   border: none;
   border-radius: 5px;
   color: white;
@@ -57,7 +58,8 @@ html, body {
 }
 
 .section header {
-  background: linear-gradient(to right, #8fa0c1, #73819C);
+  /* background: linear-gradient(to right, #8fa0c1, #73819C); */
+  background: linear-gradient(to right, #92e899, #74B87A);
   color: white;
   padding: 15px 0 15px 0;
   text-align: center;
@@ -155,7 +157,7 @@ html, body {
 }
 
 #footer {
-  background-color: #142D55;
+  background-color: #28845F;
   color: rgba(255,255,255,.5);
   padding: 15px;
   text-align: center;
